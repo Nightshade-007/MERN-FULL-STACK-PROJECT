@@ -17,7 +17,7 @@ export const createJobPost = (jobData) => async (dispatch) => {
             } 
         }
 
-        const {data} = await axios.post("https://mern-full-stack-project-e924.onrender.com/api/v1/create/job",jobData,config) ;        
+        const {data} = await axios.post("https://mern-full-stack-project-wdns.onrender.com/api/v1/create/job",jobData,config) ;        
 
         dispatch(newPostSuccess()) ;
         toast.success("Job posted successfully !")

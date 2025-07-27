@@ -18,7 +18,7 @@ export const createApplication = (id) => async (dispatch) =>{
         }
 
 
-        const { data } = await axios.post(`https://mern-full-stack-project-e924.onrender.com/api/v1/createApplication/${id}`,config,config) ;
+        const { data } = await axios.post(`https://mern-full-stack-project-wdns.onrender.com/api/v1/createApplication/${id}`,config,config) ;
         
         console.log(data)
         dispatch(createApplicationSuccess())
