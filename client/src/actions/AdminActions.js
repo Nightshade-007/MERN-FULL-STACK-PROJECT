@@ -25,7 +25,7 @@ export const getAllJobsAdmin = () => async (dispatch) => {
             } 
         }
 
-        const {data} = await axios.get("https://joblane-backend.onrender.com/api/v1/admin/allJobs",config) ;
+        const {data} = await axios.get("https://mern-full-stack-project-e924.onrender.com/api/v1/admin/allJobs",config) ;
 
         dispatch(getAllJobsSuccess(data.jobs))
 

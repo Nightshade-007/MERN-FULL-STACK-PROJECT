@@ -14,7 +14,7 @@ export const registerUser = (userData) => async (dispatch) => {
     try {
         dispatch(registerRequest())
 
-        const { data } = await axios.post("https://joblane-backend.onrender.com/api/v1/register", userData);
+        const { data } = await axios.post("https://mern-full-stack-project-e924.onrender.com/api/v1/register", userData);
 
         dispatch(registerSuccess())
         localStorage.setItem('userToken', data.token)
