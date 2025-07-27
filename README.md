@@ -1,7 +1,5 @@
 <h1 align="center" id="title">JobLane</h1>
 
-<p align="center"><img src="https://socialify.git.ci/sujaltangde/JobLane/image?forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Dark" alt="JobLane" width="640" height="320" /></p>
-
 <p id="description">Full Stack Job application portal built using MERN stack, Focusing on simplifying the job applications.</p>
 
 <h2>🚀 Demo</h2>
